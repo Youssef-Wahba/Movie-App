@@ -1,0 +1,102 @@
+body {
+	font-family: "segoe ui light";
+	background-color: #000000f2;
+}
+.bg-main {
+	background-color: #212529 !important;
+}
+.side-nav .slider {
+	width: 60px;
+	height: 100vh;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0px;
+	z-index: 9999;
+	transition: all 0.4s;
+}
+.side-nav .slider .menu {
+	cursor: pointer;
+}
+.nav-content {
+	background-color: black;
+	width: 220px;
+	height: 100vh;
+	position: fixed;
+	left: -220px;
+	top: 0;
+	transition: all 0.4s;
+	z-index: 999;
+}
+.active {
+	left: 220px !important;
+}
+
+.copyright p {
+	color: #999999;
+}
+.nav-list li {
+	font-weight: 100;
+	cursor: pointer;
+	bottom: -500px;
+}
+.nav-list li:hover {
+	color: red;
+}
+.social-icons i {
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.social-icons i:hover {
+	color: red;
+}
+.slider i {
+	cursor: pointer;
+}
+.film {
+	width: 90%;
+}
+.film-details {
+	background-color: rgba(255, 255, 255, 0.6);
+	top: 100%;
+	left: 0;
+	transition: all 1s;
+}
+.film-container {
+	overflow: hidden;
+}
+.film-container:hover .film-details {
+	top: 0;
+}
+.contact-us input {
+	margin: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.search input {
+	margin: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+button {
+	left: 20px;
+}
+
+#name::after {
+	content: "Your Name Is Not Valid";
+	background-color: #f8d7da;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+.error {
+	width: 400px;
+	height: 30px;
+	left: 20px;
+	top: 38px;
+	background-color: #f8d7da;
+}

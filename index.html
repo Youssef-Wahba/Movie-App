@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Js Exam</title>
+</head>
+
+<body>
+    <section class="side-nav">
+        <div class="nav-content py-3 text-white d-flex flex-column justify-content-between">
+            <div class="nav-list">
+                <ul class="list-unstyled position-relative">
+                    <li class="p-3 list1 position-absolute">Now playing</li>
+                    <li class="p-3 list2 position-absolute">Popular</li>
+                    <li class="p-3 list3 position-absolute">Top Rated</li>
+                    <li class="p-3 list4 position-absolute">Trending</li>
+                    <li class="p-3 list5 position-absolute">Upcoming</li>
+                    <li class="p-3 list6 position-absolute">Contact Us</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <div class="social-icons px-5 d-flex justify-content-between align-items-center">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="p-3 pb-0">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="slider bg-light d-flex flex-column justify-content-between">
+            <div class="logo d-flex justify-content-center align-items-start mt-4"><img src="img/logo.png" alt="logo"
+                    class="w-50"></div>
+            <div class="menu d-flex justify-content-center align-items-center fs-3"> <i class="fa fa-align-justify"></i>
+            </div>
+            <div class="slider-icons d-flex flex-column justify-content-between align-items-center fs-6 mb-4"> <i
+                    class="fa-solid fa-globe my-2"></i>
+                <i class="fa-solid fa-share-nodes my-2"></i>
+            </div>
+        </div>
+    </section>
+    <section class="search mt-5 w-75 m-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="whole-search form-control text-center bg-transparent"
+                        placeholder="Get Movies By Word...">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="current-search form-control text-center bg-transparent"
+                        placeholder="Search...">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="films m-auto">
+        <div class="container">
+            <div class="row gx-4 gy-4 p-5">
+            </div>
+        </div>
+    </section>
+    <section class="contact-us w-75 m-auto mb-4 text-white text-center p-5" id="contact-us">
+        <h1>ContactUS...</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="name mt-4 position-relative">
+                        <input type="text" name="name" class="form-control text-center bg-transparent" id="name"
+                            placeholder="Enter Your Name">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Your Name Is Not Vaild</p>
+                        </div>
+                    </div>
+                    <div class="phone mt-4 position-relative">
+                        <input type="text" name="phone" class="form-control text-center bg-transparent" id="phone"
+                            placeholder="Enter Phone">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Enter Valid Phone</p>
+                        </div>
+                    </div>
+                    <div class="pass mt-4 position-relative">
+                        <input type="password" name="pass" class="form-control text-center bg-transparent" id="pass"
+                            placeholder="Enter Password">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Entre valid password *Minimum Eight Characters, At Least One Letter And One Number:*
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="email mt-4 position-relative">
+                        <input type="text" name="email" class="form-control text-center bg-transparent" id="email"
+                            placeholder="Enter Email">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Entre Valid Email
+                            </p>
+                        </div>
+                    </div>
+                    <div class="age mt-4 position-relative">
+                        <input type="text" name="age" class="form-control text-center bg-transparent" id="age"
+                            placeholder="Enter Age">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Entre Valid Age
+                            </p>
+                        </div>
+                    </div>
+                    <div class="repass mt-4 position-relative">
+                        <input type="password" name="repass" class="form-control text-center bg-transparent" id="repass"
+                            placeholder="Enter RePassword">
+                        <div
+                            class="error position-absolute pt-3 d-flex justify-content-center align-items-center text-dark rounded-3 d-none">
+                            <p>Entre Valid Repassword
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-danger ms-4 mt-3">Submit</button>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
